@@ -51,14 +51,13 @@ h2 {
 #footer small { display:block; color: #ccc;}
 code {background:white; white-space:pre; display:block; margin:1.5em; margin-top:0; overflow-x:auto; box-shadow: 0 0 10px rgba(0,0,0,.1);padding: 3px;font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;font-size: 14px;border-radius: 2px;}
 #bigbutton {
-    display:block;
-    padding: 1em 0em;
+    display:table;
+    padding: 0.5em 1em;
     font-size: 24pt;
     text-align:center;
     color:white;
     background: #69aaff;
     margin: 1em auto;
-    width: 66%;
 }
 #bigbutton:hover {
     text-decoration:none;
