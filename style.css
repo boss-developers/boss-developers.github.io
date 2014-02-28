@@ -15,7 +15,7 @@ body {
     border-bottom: #ccc solid 1px;
 }
 img {
-    height: 128px; 
+    height: 128px;
     width: 128px;
     display: inline-block;
     float:left;
@@ -41,10 +41,26 @@ h2 {
     margin:0 0.2em;
     padding:0.3em 0.8em;
     transition:background 0.2s;
+    color:#69aaff;
 }
 #header a:hover, #footer a:hover {
-    background: #eee;
+    background: #69aaff;
     text-decoration:none;
+    color: white;
 }
 #footer small { display:block; color: #ccc;}
 code {background:white; white-space:pre; display:block; margin:1.5em; margin-top:0; overflow-x:auto; box-shadow: 0 0 10px rgba(0,0,0,.1);padding: 3px;font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;font-size: 14px;border-radius: 2px;}
+#bigbutton {
+    display:block;
+    padding: 1em 0em;
+    font-size: 24pt;
+    text-align:center;
+    color:white;
+    background: #69aaff;
+    margin: 1em auto;
+    width: 66%;
+}
+#bigbutton:hover {
+    text-decoration:none;
+    background: #ffbe69;
+}
