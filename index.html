@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <meta charset='utf-8' />
 <title>BOSS</title>
-<link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/ico" href="icon.ico">
+<style>
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    max-width: 620px;
+    background: #f8f8f8;
+    margin:0 auto;
+    font:12pt/1.5 Helvetica, Arial, sans-serif;
+}
+header {
+    padding: 2em 0 1em;
+}
+img {
+    height: 96px;
+    width: 96px;
+    float:left;
+    margin:0 1.5em;
+}
+h2 {
+    margin-top: 1.1em;
+}
+footer {
+    margin: 1em 0;
+    padding: 1em 0;
+    text-align: center;
+    color: #ccc;
+}
+#bigbutton {
+    display:table;
+    padding: 0.5em 1em;
+    font-size: 24pt;
+    text-align:center;
+    color:white;
+    background: #69aaff;
+    margin: 1em auto;
+}
+#bigbutton:hover {
+    text-decoration:none;
+    background: #ffbe69;
+}
+</style>
 
-<div id="header">
-<img alt="BOSS" src="icon.png">
-<h2>Load order sorting for Oblivion, Skyrim, Fallout 3 and Fallout: New Vegas</h2>
-</div>
+<header>
+    <img alt="BOSS" src="icon.png">
+    <h2>Load order sorting for TES IV: Oblivion</h2>
+</header>
 
 <div id="main">
+    <p>Setting the right load order for your mods is a crucial step to enjoying a stable modded game. BOSS can help with that, by providing automated load order sorting that's simple to use and fully customisable.</p>
 
-<p>Setting the right load order for your mods is a crucial step to enjoying a stable modded game. BOSS can help with that, by providing automated load order sorting that's simple to use and fully customisable.
+    <p>While sorting, BOSS checks for load order errors such as incompatibilities and missing requirements, and notifies you of any issues that it detects. It also provides thousands of plugin-specific messages such as usage notes and bug warnings, to help keep your game healthy.</p>
 
-<p>While sorting, BOSS checks for load order errors such as incompatibilities and missing requirements, and notifies you of any issues that it detects. It also provides thousands of plugin-specific messages such as usage notes and bug warnings, to help keep your game healthy.
+    <a id="bigbutton" href="https://github.com/boss-developers/boss/releases/tag/v2.3.0">Download BOSS</a>
 
-<p><strong>Using mods for Skyrim, Fallout 3 or Fallout: New Vegas?</strong> We recommend using <a href="http://loot.github.io">LOOT</a> instead. Oblivion users can also use LOOT, but may find that BOSS performs better, depending on the mods they use.</p>
+    <p>BOSS's official support and discussion thread can be found <a href="http://forums.bethsoft.com/topic/1515293-rel-boss-for-oblivion">here</a>.
 
-<a id="bigbutton" href="https://github.com/boss-developers/boss/releases/tag/v2.3.0">Download BOSS</a>
-
+    <p><strong>Using mods for Skyrim, Fallout 3 or Fallout: New Vegas?</strong> Use <a href="http://loot.github.io">LOOT</a> instead, as BOSS's support for those games is relatively poor and no longer maintained. Oblivion users can also use LOOT, but may find that BOSS performs better, depending on the mods they use.</p>
 </div>
 
-<div id="footer">
-Support &amp; Discussion:
-<a href="http://forums.bethsoft.com/topic/1434397-rel-boss-for-oblivion/">Oblivion</a>
-<a href="http://forums.bethsoft.com/topic/1132338-boss-for-nehrim/">Nehrim</a>
-<a href="http://forums.bethsoft.com/topic/1496999-relz-boss-for-skyrim/">Skyrim</a>
-<a href="http://forums.bethsoft.com/topic/1282711-relz-boss-for-fo3-thread-4/">Fallout 3</a>
-<a href="http://forums.bethsoft.com/topic/1483857-rel-boss-for-fallout-new-vegas/">Fallout: New Vegas</a>
-<small>&copy; 2013&mdash;2014 WrinklyNinja</small>
-</div>
+<footer>
+    <small>&copy; 2013&mdash;2015 WrinklyNinja</small>
+</footer>
 
