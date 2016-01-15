@@ -1,0 +1,59 @@
+nav {
+	display: block;
+	background: #eee;
+	width: 140px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 2;
+	box-shadow: 0 0 3px 1px rgba(0, 0, 0, .5);
+}
+
+nav header {
+	padding: .5em;
+	padding-top: 0;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+body nav,
+nav h1,
+nav h2 {
+	font-size: 10pt;
+	line-height: normal;
+	font-weight: normal;
+}
+
+nav h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+nav .current {
+	background: #ccc;
+}
+
+nav a {
+	color: inherit;
+	display: block;
+	transition: background .2s;
+	-webkit-transition: background .2s;
+	-moz-transition: background .2s;
+	-ms-transition: background .2s;
+	-o-transition: background .2s;
+}
+
+nav > a {
+	padding: .5em;
+}
+
+nav a:hover {
+	text-decoration: none;
+}
+
+nav h2 {
+	padding: .5em;
+	font-size: 1.5em;
+	margin-top: 1.1em;
+}
