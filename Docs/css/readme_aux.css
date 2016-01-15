@@ -1,0 +1,70 @@
+h1 + p {
+	text-align: center;
+}
+
+.tagPrefix {
+	color: #cd5555;
+}
+
+.dirty {
+	color: #960;
+}
+
+.warn,
+.error {
+	padding: .3em .5em;
+	border-radius: .5em;
+}
+
+.warn {
+	background: #fd5;
+}
+
+.error {
+	background: #ff9090;
+}
+
+li.warn,
+li.error {
+	display: table;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.version-contents {
+	list-style-type: none;
+}
+
+li ul,
+li ol {
+	margin-top: .4em;
+}
+
+q {
+	font-style: italic;
+}
+
+code.box {
+	line-height: 20px;
+	/*padding: 5px 10px;*/
+}
+
+ol li ol {
+	list-style: lower-alpha;
+}
+
+ol li ol li ol {
+	list-style: lower-roman;
+}
+
+ol ol li {
+	margin-bottom: .2em;
+}
+
+ul.errorMessages > li {
+	margin-bottom: 1.4em;
+}
+
+img {
+	border: 0;
+}
